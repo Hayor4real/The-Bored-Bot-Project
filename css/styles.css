@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* gotten from uigradients.com */
+  background: #5c258d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4389a2,
+    #5c258d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4389a2,
+    #5c258d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: "Pacifico", cursive;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: red;
+  cursor: pointer;
+  border: 1px solid darkred;
+}
+
+button:hover {
+  background-color: darkslateblue;
+  height: 200px;
+  width: 200px;
+  border-radius: 80%;
+  transition: border-radius 30s ease;
+}
+
+.fun {
+  background: #2f7336; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #aa3a38,
+    #2f7336
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #aa3a38,
+    #2f7336
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.color {
+  color: red;
+}
